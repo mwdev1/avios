@@ -1,0 +1,12 @@
+spring:
+  flyway:
+    enabled: false
+  jpa:
+    generate-ddl: true
+    hibernate:
+      ddl-auto: update
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+
+
+# TODO     comfigure and tune hystrix, hibernate, hikari etc
